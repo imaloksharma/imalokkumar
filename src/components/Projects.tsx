@@ -114,7 +114,7 @@ const Projects = () => {
           {filteredProjects.map((project, index) => (
             <div
               key={index}
-              className="bg-gray-800/50 backdrop-blur-sm border border-purple-500/20 rounded-2xl overflow-hidden hover:bg-gray-800/70 transition-all duration-300 group hover:transform hover:scale-105"
+              className="bg-gray-800/50 backdrop-blur-sm border border-purple-500/20 rounded-2xl overflow-hidden hover:bg-gray-800/70 hover:border-purple-400/60 hover:shadow-xl hover:shadow-purple-500/20 transition-all duration-300 group hover:transform hover:scale-105"
             >
               {/* Project Header */}
               <div className={`p-6 bg-gradient-to-r ${project.color} bg-opacity-10`}>
@@ -184,7 +184,7 @@ const Projects = () => {
 
         {/* Call to Action */}
         <div className="text-center mt-16">
-          <div className="bg-gradient-to-r from-purple-500/10 to-blue-500/10 rounded-2xl p-8 border border-purple-500/20">
+          <div className="bg-gradient-to-r from-purple-500/10 to-blue-500/10 rounded-2xl p-8 border border-purple-500/20 hover:border-purple-400/60 hover:shadow-lg hover:shadow-purple-500/20 transition-all duration-300">
             <h3 className="text-2xl font-bold text-white mb-4">Want to see more?</h3>
             <p className="text-gray-300 mb-6">
               Check out my GitHub profile for more projects and contributions

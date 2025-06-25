@@ -81,7 +81,7 @@ const Skills = () => {
             {skillCategories[activeCategory as keyof typeof skillCategories].map((skill, index) => (
               <div
                 key={index}
-                className="bg-gray-900/50 backdrop-blur-sm border border-purple-500/20 rounded-2xl p-6 hover:bg-gray-900/70 transition-all duration-300 group"
+                className="bg-gray-900/50 backdrop-blur-sm border border-purple-500/20 rounded-2xl p-6 hover:bg-gray-900/70 hover:border-purple-400/60 hover:shadow-lg hover:shadow-purple-500/20 transition-all duration-300 group"
               >
                 <div className="flex justify-between items-center mb-3">
                   <h3 className="text-lg font-semibold text-white group-hover:text-purple-400 transition-colors duration-300">
@@ -104,25 +104,25 @@ const Skills = () => {
 
           {/* Certifications Summary */}
           <div className="mt-16 text-center">
-            <div className="bg-gradient-to-r from-purple-500/10 to-blue-500/10 rounded-2xl p-8 border border-purple-500/20">
+            <div className="bg-gradient-to-r from-purple-500/10 to-blue-500/10 rounded-2xl p-8 border border-purple-500/20 hover:border-purple-400/60 hover:shadow-lg hover:shadow-purple-500/20 transition-all duration-300">
               <h3 className="text-2xl font-bold text-white mb-4">Professional Certifications</h3>
               <p className="text-gray-300 mb-6">
                 Continuously improving my skills through industry-recognized certifications
               </p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-                <div className="bg-gray-900/50 rounded-xl p-4">
+                <div className="bg-gray-900/50 rounded-xl p-4 border border-transparent hover:border-purple-400/40 transition-all duration-300">
                   <div className="text-2xl font-bold text-purple-400">25+</div>
                   <div className="text-gray-400 text-sm">Certifications</div>
                 </div>
-                <div className="bg-gray-900/50 rounded-xl p-4">
+                <div className="bg-gray-900/50 rounded-xl p-4 border border-transparent hover:border-purple-400/40 transition-all duration-300">
                   <div className="text-2xl font-bold text-blue-400">AWS</div>
                   <div className="text-gray-400 text-sm">Cloud Certified</div>
                 </div>
-                <div className="bg-gray-900/50 rounded-xl p-4">
+                <div className="bg-gray-900/50 rounded-xl p-4 border border-transparent hover:border-purple-400/40 transition-all duration-300">
                   <div className="text-2xl font-bold text-green-400">Google</div>
                   <div className="text-gray-400 text-sm">AI Certified</div>
                 </div>
-                <div className="bg-gray-900/50 rounded-xl p-4">
+                <div className="bg-gray-900/50 rounded-xl p-4 border border-transparent hover:border-purple-400/40 transition-all duration-300">
                   <div className="text-2xl font-bold text-orange-400">LinkedIn</div>
                   <div className="text-gray-400 text-sm">Learning</div>
                 </div>
@@ -132,16 +132,18 @@ const Skills = () => {
         </div>
       </div>
 
-      <style>{`
-        @keyframes skillBar {
-          from {
-            transform: scaleX(0);
+      <style>
+        {`
+          @keyframes skillBar {
+            from {
+              transform: scaleX(0);
+            }
+            to {
+              transform: scaleX(1);
+            }
           }
-          to {
-            transform: scaleX(1);
-          }
-        }
-      `}</style>
+        `}
+      </style>
     </section>
   );
 };
