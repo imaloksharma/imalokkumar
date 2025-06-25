@@ -132,7 +132,7 @@ const Skills = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         @keyframes skillBar {
           from {
             transform: scaleX(0);

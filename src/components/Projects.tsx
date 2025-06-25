@@ -1,4 +1,5 @@
 
+import { useState } from 'react';
 import { ExternalLink, Github, Code, Database, Globe, Brain } from 'lucide-react';
 
 const Projects = () => {
