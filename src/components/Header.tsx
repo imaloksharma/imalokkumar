@@ -47,7 +47,7 @@ const Header = () => {
               <Linkedin size={20} />
             </a>
             <a
-              href="https://github.com/alokkumarsgl"
+              href="https://github.com/imaloksharma"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-purple-400 transition-colors duration-300"
@@ -94,7 +94,7 @@ const Header = () => {
                 <Linkedin size={20} />
               </a>
               <a
-                href="https://github.com/alokkumarsgl"
+                href="https://github.com/imaloksharma"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-purple-400 transition-colors duration-300"
