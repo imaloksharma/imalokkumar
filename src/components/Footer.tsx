@@ -29,7 +29,7 @@ const Footer = () => {
               <Linkedin size={20} />
             </a>
             <a
-              href="https://github.com/alokkumarsgl"
+              href="https://github.com/imaloksharma"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-gray-800 border border-purple-500/20 rounded-xl text-gray-400 hover:text-purple-400 hover:bg-gray-700 transition-all duration-300 hover:transform hover:scale-110"
