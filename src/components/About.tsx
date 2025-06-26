@@ -3,10 +3,10 @@ import { Code, GraduationCap, Award, MapPin } from 'lucide-react';
 
 const About = () => {
   const stats = [
-    { icon: Code, label: 'Projects Completed', value: '15+' },
-    { icon: GraduationCap, label: 'CGPA', value: '8.35' },
-    { icon: Award, label: 'Certifications', value: '25+' },
-    { icon: MapPin, label: 'Internships', value: '7' },
+    { icon: Code, label: 'Live Projects Completed', value: '37+' },
+    { icon: GraduationCap, label: '5th Sem CGPA', value: '8.35' },
+    { icon: Award, label: 'Certifications', value: '45+' },
+    { icon: MapPin, label: 'Internships', value: '7+' },
   ];
 
   return (
