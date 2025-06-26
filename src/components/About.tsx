@@ -3,7 +3,12 @@ import { Code, GraduationCap, Award, MapPin } from 'lucide-react';
 
 const About = () => {
   const stats = [
-    { icon: Code, label: 'Live Projects Completed', value: '37+' },
+    {
+  icon: Code,
+  label: 'Live Projects Completed',
+  value: <a href="https://msnext.in/our-project/" target="_blank" rel="noopener noreferrer">37+</a>
+},
+
     { icon: GraduationCap, label: '5th Sem CGPA', value: '8.35' },
     { icon: Award, label: 'Certifications', value: '45+' },
     { icon: MapPin, label: 'Internships', value: '7+' },
