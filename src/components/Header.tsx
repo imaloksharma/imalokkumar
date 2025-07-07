@@ -11,7 +11,7 @@ const Header = () => {
     { href: '#experience', label: 'Experience' },
     { href: '#skills', label: 'Skills' },
     { href: '#projects', label: 'Projects' },
-    { href: '#Portfolio Showcase', label: 'Portfolio Showcase' },
+    { href: 'https://portfolioshowcase.alokkumarsharma.in/', rel: 'noopener noreferrer', target: '_blank', label: 'Portfolio Showcase' },
     { href: '#contact', label: 'Contact' },
 
     
