@@ -4,10 +4,10 @@ import { Calendar, MapPin, ExternalLink } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: "Full-Stack Web Developer",
+      title: " Web Developer & Tutor",
       company: "GreenApple",
       location: "Amritsar",
-      period: "Aug 2024 - Sep 2024",
+      period: "June 2025 - Present",
       type: "On-site",
       description: "Gained hands-on experience in web design and development, focusing on creating responsive and user-friendly websites. Collaborated with a team to design innovative layouts, optimize website performance, and enhance user interfaces.",
       skills: ["HTML", "CSS", "JavaScript", "Responsive Design", "UI/UX"],
