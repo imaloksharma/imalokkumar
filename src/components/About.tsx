@@ -79,7 +79,7 @@ const About = () => {
               <ul className="space-y-2 text-gray-300">
                 <li className="flex items-start gap-2">
                   <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>7th Position in Tech-A-Thon 2.0 Hackathon, Delhi University</span>
+                  <span>Over 4+ Hackathons Mentored</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
@@ -87,7 +87,7 @@ const About = () => {
                 </li>
                 <li className="flex items-start gap-2">
                   <div className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>Multiple Tech Event Organizer at KCET Amritsar</span>
+                  <span>10+ Tech Events Organized Across My College & External Platforms</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <div className="w-2 h-2 bg-yellow-400 rounded-full mt-2 flex-shrink-0"></div>
