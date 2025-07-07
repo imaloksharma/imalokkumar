@@ -6,7 +6,7 @@ const About = () => {
     {
   icon: Code,
   label: 'Live Projects Completed',
-  value: <a href="https://msnext.in/our-project/" target="_blank" rel="noopener noreferrer">37+</a>
+  value: <a href="https://msnext.in/our-project/" target="_blank" rel="noopener noreferrer">40+</a>
 },
 
     { icon: GraduationCap, label: '5th Sem CGPA', value: '8.35' },
