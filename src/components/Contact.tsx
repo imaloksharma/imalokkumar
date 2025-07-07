@@ -65,7 +65,7 @@ const Contact = () => {
     {
       icon: Github,
       label: 'GitHub',
-      href: 'https://github.com/alokkumarsgl',
+      href: 'https://github.com/imaloksharma',
       color: 'hover:text-purple-400'
     },
     {
@@ -157,7 +157,7 @@ const Contact = () => {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 bg-gray-800 border border-purple-500/30 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-purple-400 focus:ring-2 focus:ring-purple-400/20 transition-all duration-300"
-                      placeholder="John Doe"
+                      placeholder="Alok Kumar"
                     />
                   </div>
                   <div>

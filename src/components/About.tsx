@@ -91,7 +91,7 @@ const About = () => {
                 </li>
                 <li className="flex items-start gap-2">
                   <div className="w-2 h-2 bg-yellow-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>25+ Professional Certifications</span>
+                  <span>45+ Professional Certifications</span>
                 </li>
               </ul>
             </div>
