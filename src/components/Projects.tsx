@@ -190,7 +190,7 @@ const Projects = () => {
               Check out my GitHub profile for more projects and contributions
             </p>
             <a
-              href="https://github.com/alokkumarsgl"
+              href="https://github.com/imaloksharma"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-purple-500 to-blue-500 text-white font-semibold rounded-full hover:from-purple-600 hover:to-blue-600 transition-all duration-300 transform hover:scale-105"
